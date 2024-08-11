@@ -1,4 +1,6 @@
-# SwedLang Interpreter
+# SwedLang Interpreter 
+
+*Note - at some places it's written as SwadLang Also, consider both as same.
 
 <img width="473" alt="logo" src="https://github.com/user-attachments/assets/97ebadfc-5dae-4576-8d5f-b095cee1ed97">
 
