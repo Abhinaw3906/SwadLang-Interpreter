@@ -1,37 +1,37 @@
-# 🌟 SwedLang Interpreter: Your Gateway to Next-Gen Programming! 🚀
+# SwedLang Interpreter
 
-Welcome to the magical world of SwedLang, where natural language meets high-level programming! 🎩✨
+<img width="473" alt="logo" src="https://github.com/user-attachments/assets/97ebadfc-5dae-4576-8d5f-b095cee1ed97">
 
-<div align="center">
-  <img src="/api/placeholder/800/400" alt="SwedLang Logo">
-</div>
 
-## 🎭 What is SwedLang?
+SwedLang is an innovative programming language that bridges natural language processing with high-level programming. This repository contains the SwedLang interpreter implementation.
 
-SwedLang is not just another programming language; it's a glimpse into the future of coding! Imagine speaking to your computer in plain English and watching it transform your words into powerful, executable code. That's the SwedLang experience! 🗣️💻
+## Table of Contents
 
-## 🛠️ Installation Adventure
+- [Installation](#installation)
+- [Usage](#usage)
+- [SwedLang GPT](#swedlang-gpt)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
 
-Embark on a thrilling journey to set up SwedLang on your Windows machine using the mystical WSL 2 and Ubuntu! 🏰
+## Installation
+
+Follow these steps to set up SwedLang on your Windows machine using WSL 2 and Ubuntu.
 
 <details>
-<summary>🧙‍♂️ Click here to begin your installation quest!</summary>
+<summary><b>Click to expand installation instructions</b></summary>
 
-### Step 1: Summon the Ubuntu Spirit 📦
+### 1. Install WSL 2 and Ubuntu
 
-1. Open PowerShell as the almighty Administrator
-2. Chant the sacred incantation:
+1. Open PowerShell as Administrator and run:
    ```powershell
    wsl --install -d Ubuntu
    ```
-3. Wait for the Ubuntu spirit to materialize (this may take a few moments)
+2. Restart your computer if prompted.
 
-### Step 2: Awaken the Ubuntu Terminal 🖥️
+### 2. Set up OCaml
 
-- Seek the Ubuntu icon in your Start menu, or
-- Summon it through the Windows Terminal
-
-### Step 3: Empower Your System with OCaml 🔮
+Open Ubuntu terminal and run:
 
 ```bash
 sudo apt update
@@ -40,103 +40,87 @@ opam init
 eval $(opam env)
 ```
 
-### Step 4: Navigate to Your Magical Workshop 🧭
+### 3. Navigate to Your Project Directory
 
 ```bash
 cd /mnt/c/Users/YourUsername/Documents/SwedLang
 ```
 
-### Step 5: Craft Your SwedLang Spells 📜
-
-Choose your preferred enchanted editor:
-
-- 🌿 Nano (for the minimalist wizard):
-  ```bash
-  nano SwedLang.ml
-  ```
-- 🌟 VS Code (for the modern sorcerer):
-  1. Install the "Remote - WSL" extension
-  2. Command your terminal:
-     ```bash
-     code .
-     ```
-
-### Step 6: Compile Your Creation 🧪
+### 4. Compile SwedLang
 
 ```bash
 ocamlc -o swedlang SwedLang.ml
 ```
 
-### Step 7: Unleash SwedLang! 🎉
+</details>
+
+## Usage
+
+After installation, you can run SwedLang using:
 
 ```bash
 ./swedlang
 ```
 
-</details>
+Here are some example SwedLang commands:
 
-## 🎮 Interactive SwedLang Playground
+```swedlang
+Exempel 1: 2 + 3 * 4 - 6 / 2
+Resultat: 11
 
-Try out some SwedLang commands right here! (Imaginary interactive console)
+Exempel 2: lat x = 2 i lat y = x + 3 i x * y
+Resultat: 10
 
+Exempel 3: om 1 da 100 annars 200
+Resultat: 100
+
+Exempel 4: om 5 = 5 da 10 annars 20
+Resultat: 10
+
+Exempel 5: om 1 da (om 0 da 100 annars 50) annars 25
+Resultat: 50
+
+Exempel 6: om 5 > 3 da 10 annars 20
+Resultat: 10
 ```
-> greet "World"
-Hello, World!
 
-> calculate 2 + 2
-4
+## SwedLang GPT
 
-> create list [1, 2, 3, 4, 5]
-List created: [1, 2, 3, 4, 5]
-```
+Experience our AI-powered SwedLang interpreter:
 
-## 🧠 SwedLang GPT: The Future is Now!
+[![Try SwedLang GPT](https://img.shields.io/badge/Try%20SwedLang%20GPT-FF6600?style=for-the-badge&logo=openai&logoColor=white)](https://chatgpt.com/g/g-uc15KXNL6-swedlang-interpreter)
 
-Experience the mind-bending power of our AI-powered SwedLang interpreter!
+1. Visit the [SwedLang Interpreter GPT](https://chatgpt.com/g/g-uc15KXNL6-swedlang-interpreter)
+2. Input prompts in natural language
+3. Receive SwedLang code output
 
-<div align="center">
+## Features
 
-[![SwedLang GPT](https://img.shields.io/badge/Try%20SwedLang%20GPT-FF6600?style=for-the-badge&logo=openai&logoColor=white)](https://chatgpt.com/g/g-uc15KXNL6-swedlang-interpreter)
+- [x] Natural language to SwedLang code conversion
+- [x] Basic arithmetic operations
+- [x] String manipulation
+- [x] List creation and manipulation
+- [ ] File I/O operations (Coming soon)
+- [ ] Object-oriented programming support (In development)
 
-</div>
+## Contributing
 
-1. 🌐 Visit the [SwedLang Interpreter GPT](https://chatgpt.com/g/g-uc15KXNL6-swedlang-interpreter)
-2. 🗣️ Speak your mind in natural language
-3. 🔮 Watch as it conjures SwedLang code before your very eyes!
+We welcome contributions to SwedLang! Here's how you can help:
 
-## 📊 SwedLang vs. Traditional Languages
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a pull request
 
-| Feature | SwedLang | Python | Java | C++ |
-|---------|----------|--------|------|-----|
-| Natural Language Input | ✅ | ❌ | ❌ | ❌ |
-| AI-Powered | ✅ | ❌ | ❌ | ❌ |
-| Compiled | ✅ | ❌ | ✅ | ✅ |
-| Object-Oriented | ✅ | ✅ | ✅ | ✅ |
-| Magical Capabilities | 🌟🌟🌟 | ⭐ | ⭐ | ⭐ |
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-## 🎨 Contribute to the Magic
+## License
 
-We welcome wizards of all levels to contribute to SwedLang! Whether you're a code sorcerer or a documentation bard, there's a place for you in our magical community.
-
-<details>
-<summary>🧙‍♀️ Click to reveal the secret contribution ritual!</summary>
-
-1. 🍴 Fork this repository
-2. 🌿 Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. 🔮 Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. 🚀 Push to the branch: `git push origin feature/AmazingFeature`
-5. 🎉 Open a pull request and let the magic begin!
-
-</details>
-
-## 📜 License
-
-This project is licensed under the Enchanted MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
 <div align="center">
-
-🌟 **Remember, with SwedLang, you're not just coding... you're casting spells!** 🌟
-
+  <h3>SwedLang: Bridging Natural Language and Programming</h3>
 </div>
