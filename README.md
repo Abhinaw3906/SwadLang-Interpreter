@@ -99,9 +99,9 @@ Experience our AI-powered SwedLang interpreter:
 ## Features
 
 - [x] Natural language to SwedLang code conversion
-- [x] Basic arithmetic operations
-- [x] String manipulation
-- [x] List creation and manipulation
+- [x] Arithmetic and Logical Operations
+- [x] Conditional Statements
+- [x] Variable Bindings and Scoping
 - [ ] File I/O operations (Coming soon)
 - [ ] Object-oriented programming support (In development)
 
