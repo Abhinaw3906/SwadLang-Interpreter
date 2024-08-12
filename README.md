@@ -2,7 +2,8 @@
 
 *Note - at some places it's written as SwedLang Also, consider both as same.
 
-<img width="454" alt="logo" src="https://github.com/user-attachments/assets/c7cb4793-4fd9-41ba-ae72-e235705be47a">
+<img width="944" alt="logo" src="https://github.com/user-attachments/assets/b8cff25e-022e-4236-b4d8-3cc3f78d0ca1">
+
 
 
 
