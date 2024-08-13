@@ -98,6 +98,8 @@ Experience our AI-powered SwedLang interpreter:
 2. Input prompts in natural language
 3. Receive SwedLang code output
 
+Note and acknowledgement - I thank **Dr. Nachiket Tapas** for providing access to ChatGPT Premium Subscription because of which i was able to use GPT Store.
+
 ## Features
 
 - [x] Natural language to SwedLang code conversion
