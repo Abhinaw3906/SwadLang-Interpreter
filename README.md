@@ -1,6 +1,6 @@
-# SwadLang Interpreter 
+# SwedLang Interpreter 
 
-*Note - at some places it's written as SwedLang Also, consider both as same.
+*Note - at some places it's written as SwadLang Also, consider both as same.
 
 <img width="944" alt="logo" src="https://github.com/user-attachments/assets/b8cff25e-022e-4236-b4d8-3cc3f78d0ca1">
 
