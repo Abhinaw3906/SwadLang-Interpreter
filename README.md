@@ -112,12 +112,11 @@ Experience our AI-powered SwedLang interpreter:
 We welcome contributions to SwedLang! Here's how you can help:
 
 1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
 5. Open a pull request
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
