@@ -53,7 +53,7 @@ cd /mnt/c/Users/YourUsername/Documents/SwedLang
 ### 4. Compile SwedLang
 
 ```bash
-ocamlc -o swedlang SwedLang.ml
+ocamlc -o swedlang swedLang.ml
 ```
 
 </details>
